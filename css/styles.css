@@ -1,5 +1,9 @@
-* {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
 }
 
 body {
@@ -8,45 +12,35 @@ body {
     background-color: #FFFFFF;
     font-size: 16px;
     font-style: normal;
-    
 }
 
 .container {
-    width: 1158px;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .page-header {
-    width: 1440px;
-    height: 72px;
-
+      
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: #FFFFFF;
-
-    border-bottom: 1px;
-    border-color: #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 
 .webstudio {
     display: flex;
     gap: 0px;
-    height: 24px;
-    width: 115px;
 }
 
 .web {
-    
     color: #4D5AE5;
     font-family: "Raleway";
     font-weight: 700;
     font-size: 18px;
-    width: 44px;
-    height: 21px;
     text-decoration: none;
-    letter-spacing: 3%;
-    /* letter-spacing: 3%;  ----> Neden çalışmıyor? */
+    letter-spacing: 0.03em;
  }
 
  .studio {
@@ -54,20 +48,14 @@ body {
     font-family: "Raleway";
     font-weight: 700;
     font-size: 18px;
-    width: 71px;
-    height: 21px;
     text-decoration: none;
-    letter-spacing: 3%;
-     /* letter-spacing: 3%;  ----> Neden çalışmıyor? */
+    letter-spacing: 0.03em;
  }
 
 .menu {
     display: flex;
     gap: 40px;
     list-style: none;
-    height: 24px;
-    width: 261px;
-    
 }
 
 .menu .link {
@@ -100,23 +88,20 @@ body {
     color: #404BBF;
 }
 
+.section {
+    padding: 120px 0px;
+}
+
 .firstsection {
-    padding: 188px 472px 292px;
-    position: absolute;
-    width: 1440px;
-    height: 600px;
+    padding: 120px 0px;
     background: #2E2F42;
 }
 
 h1 {
-    width: 496px;
-    height: 120px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1,0714;
     color: #FFFFFF;
-    
-    position: absolute;
     font-style: normal;
     text-align: center;
     letter-spacing: 0.02em;
@@ -130,9 +115,7 @@ h1 {
 
     display: flex;
     padding: 16px 32px;
-    position: absolute;
-    left: 636px;              /* left ve top olarak kullanmak doğru mu? Derslerde yoktu?*/
-    top: 428px;
+
 
     font-weight: 500;
     font-size: 16px;
@@ -150,26 +133,13 @@ h1 {
 }
 
 .secondsection {
-    width: 1440px;
-    height: 344px;
+    padding: 120px 0px;
 }
 
-.subjects{
+.secondsection .subjects {
     display: flex;
-    flex-wrap: wrap;
     gap: 8px;
-    padding: 120px 0px 156px;
-    
-    width: 264px;               /* tasarıma width:1128px ve height:104px, fakat bu değerler bozuyor?*/
-    height: 72px;
-
-    left: 156px;                /* left ve top olarak kullanmak doğru mu? Derslerde yoktu?*/
-    top: 792px;
-
-    flex-direction: column;
-    position: absolute;        /*Absolute anlaşılmadı, bakılacak?*/
     list-style: none;
-     
 }
 
 .item h3 {
@@ -181,23 +151,16 @@ h1 {
 
 .item p {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1,5;
     color: #515543;
     letter-spacing:0.02em;
 }
 
 .thirdsection {
-    display: flex;
+    
+    padding: 120px 0px;
     background-color: #F4F4FD;
     text-align: center;
-    width: 1440px ;
-    height: 732px;
-
-    position: absolute;
-        
-    left: 0px;
-    top: 1016px;
-
 }
 
 h2 {
@@ -206,20 +169,17 @@ h2 {
     line-height: 1,111;
     color: #2E2F42;
     font-weight: 700;
-    padding: 120px 639px 0px;
     text-align: center;
     letter-spacing: 0.02em;
     justify-content: center;
+
 
 }
 
 .ourteam {
     display: flex;
     list-style: none;
-   
     gap: 32px;
-    padding: 232px 156px 120px;
-    position: absolute;
     justify-content: center;
 
 }
@@ -237,13 +197,17 @@ h2 {
 }
 
 .fourthsection {
-    display: flex;
+    
+    padding: 120px 0px;
     text-align: center;
 }
 
 .portfolio {
     display: flex;
     list-style: none;
+    justify-content: center;
+    gap: 32px;
+   
 }
 
 .portfolio .work {
@@ -260,19 +224,31 @@ h2 {
 
 footer {
     display: flex;
+    flex-direction: column;
     background-color: #2E2F42;
-    color: #F4F4FD;
-}
+   }
 
 .webstudio2 {
     font-family: "Raleway";
     font-weight: 700;
     font-size: 18px;
+    letter-spacing: 0.02em;
+}
+
+.web2 {
+    color: #4D5AE5;
+    text-decoration: none;
+}
+
+.studio2 {
     color: #F4F4FD;
+    text-decoration: none;
 }
 
 .aim {
     font-weight: 400;
     font-size: 16px;
     line-height: 1,5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }

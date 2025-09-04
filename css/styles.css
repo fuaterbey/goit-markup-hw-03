@@ -231,7 +231,7 @@ h2 {
     flex-basis: calc((100% - 70px) / 3);
     padding: 0px;
     background-color: #fff;
-    border: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
     
 }
 

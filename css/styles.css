@@ -22,6 +22,7 @@ body {
 .page-header {
       
     display: flex;
+    padding: 24px 0;
     align-items: center;
     justify-content: space-around;
     background-color: #FFFFFF;
@@ -32,6 +33,7 @@ body {
 .webstudio {
     display: flex;
     gap: 0px;
+    padding: 24px 76px 24px 156px;   
 }
 
 .web {
@@ -51,11 +53,12 @@ body {
     text-decoration: none;
     letter-spacing: 0.03em;
  }
-
+  
 .menu {
     display: flex;
     gap: 40px;
     list-style: none;
+    padding-right: 382px;
 }
 
 .menu .link {
@@ -74,6 +77,7 @@ body {
 .address {
     display: flex;
     gap: 40px;
+    padding-right: 156px;
         
 }
 
@@ -88,12 +92,7 @@ body {
     color: #404BBF;
 }
 
-.section {
-    padding: 120px 0px;
-}
-
 .firstsection {
-    padding: 120px 0px;
     background: #2E2F42;
 }
 
@@ -105,26 +104,33 @@ h1 {
     font-style: normal;
     text-align: center;
     letter-spacing: 0.02em;
+
+    padding: 188px 472px 48px;
+}
+
+button {
+    padding: 0px 635px 188px 636px;
+    align-items: center;
+    
 }
 
 .buttontext {
+    
+    cursor: pointer;
     color: #FFFFFF;
     background-color: #4D5AE5;
-    line-height: 1,5px;
-    cursor: pointer;
-
-    display: flex;
-    padding: 16px 32px;
-
-
+    
     font-weight: 500;
     font-size: 16px;
-    display: flex;
+    line-height: 1, 5px;
+    
     align-items: center;
     letter-spacing: 0.04em;
     
     box-shadow: 0px 4px 4px 0px #00000026;
     border-radius: 4px;
+
+    padding: 16px 32px;
  
 }
 
@@ -132,8 +138,12 @@ h1 {
     background-color: #404BBF;
 }
 
+.section {
+    padding: 120px 156px;
+}
+
 .secondsection {
-    padding: 120px 0px;
+    
 }
 
 .secondsection .subjects {
@@ -157,23 +167,20 @@ h1 {
 }
 
 .thirdsection {
-    
-    padding: 120px 0px;
+
     background-color: #F4F4FD;
     text-align: center;
 }
 
-h2 {
-    
+h2 {    
     font-size: 36px;
     line-height: 1,111;
     color: #2E2F42;
     font-weight: 700;
     text-align: center;
     letter-spacing: 0.02em;
-    justify-content: center;
 
-
+    padding-bottom: 72px;
 }
 
 .ourteam {
@@ -181,13 +188,24 @@ h2 {
     list-style: none;
     gap: 32px;
     justify-content: center;
+}
 
+.ourteam .card {
+    background-color: #FFFFFF;
+
+}
+
+.ourteam .id {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 32px 16px;
 }
 
 .ourteam .name {
     font-size: 20px;
     line-height: 1,2;
-    color: #2E2F42;
+    color: #2E2F42;     
 }
 
 .ourteam .position {
@@ -197,35 +215,57 @@ h2 {
 }
 
 .fourthsection {
-    
-    padding: 120px 0px;
-    text-align: center;
+    text-align: left;
 }
 
 .portfolio {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
-    justify-content: center;
-    gap: 32px;
-   
+    gap: 24px;
+      
+}
+
+.card2 {
+    max-width: 360px;
+    flex-basis: calc((100% - 70px) / 3);
+    padding: 0px;
+    background-color: #fff;
+    border: 1px solid #E7E9FC;
+    
+}
+
+.portfolio .id2 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 32px 16px;
+}
+
+.card2-image {
+    max-width: 100%;
 }
 
 .portfolio .work {
     font-size: 20px;
     line-height: 1,2;
     color: #2e4230;
+    text-align: left;
 }
 
 .portfolio .type {
     font-size: 16px;
     line-height: 1,5;
     color: #435544;
+    text-align: left;
 }
 
 footer {
     display: flex;
     flex-direction: column;
     background-color: #2E2F42;
+    padding: 100px 1020px 100px 156px;
+    gap: 16px;
    }
 
 .webstudio2 {

@@ -22,7 +22,7 @@ body {
 .page-header {
       
     display: flex;
-    padding: 24px 0;
+    padding: 24px 156px;
     align-items: center;
     justify-content: space-around;
     background-color: #FFFFFF;
@@ -33,7 +33,7 @@ body {
 .webstudio {
     display: flex;
     gap: 0px;
-    padding: 24px 76px 24px 156px;   
+    padding: 0px 76px 0px 156px;   
 }
 
 .web {
@@ -59,6 +59,7 @@ body {
     gap: 40px;
     list-style: none;
     padding-right: 382px;
+    line-height: 1,5;
 }
 
 .menu .link {
@@ -77,8 +78,7 @@ body {
 .address {
     display: flex;
     gap: 40px;
-    padding-right: 156px;
-        
+            
 }
 
 .address .link {
@@ -94,6 +94,9 @@ body {
 
 .firstsection {
     background: #2E2F42;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 h1 {
@@ -105,13 +108,13 @@ h1 {
     text-align: center;
     letter-spacing: 0.02em;
 
-    padding: 188px 472px 48px;
+    padding: 188px 472px 0px;
+    margin-bottom: 48px;
 }
 
 button {
-    padding: 0px 635px 188px 636px;
-    align-items: center;
-    
+    margin-bottom: 188px;
+   
 }
 
 .buttontext {
@@ -122,9 +125,9 @@ button {
     
     font-weight: 500;
     font-size: 16px;
-    line-height: 1, 5px;
+    line-height: 1,5px;
     
-    align-items: center;
+    text-align: center;
     letter-spacing: 0.04em;
     
     box-shadow: 0px 4px 4px 0px #00000026;
@@ -148,7 +151,7 @@ button {
 
 .secondsection .subjects {
     display: flex;
-    gap: 8px;
+    gap: 24px;
     list-style: none;
 }
 
@@ -180,13 +183,13 @@ h2 {
     text-align: center;
     letter-spacing: 0.02em;
 
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .ourteam {
     display: flex;
     list-style: none;
-    gap: 32px;
+    gap: 24px;
     justify-content: center;
 }
 
@@ -205,7 +208,8 @@ h2 {
 .ourteam .name {
     font-size: 20px;
     line-height: 1,2;
-    color: #2E2F42;     
+    color: #2E2F42;  
+    font-weight: 700px;   
 }
 
 .ourteam .position {

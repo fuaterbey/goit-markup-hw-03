@@ -33,7 +33,7 @@ body {
 .webstudio {
     display: flex;
     gap: 0px;
-    padding: 0px 76px 0px 156px;   
+    padding: 0px 76px 0px 0px;   
 }
 
 .web {
@@ -58,7 +58,7 @@ body {
     display: flex;
     gap: 40px;
     list-style: none;
-    padding-right: 382px;
+    padding-right: 332px;
     line-height: 1,5;
 }
 
@@ -113,7 +113,10 @@ h1 {
 }
 
 button {
-    margin-bottom: 188px;
+    
+    width: 169px;
+    height: 56px;
+    margin: 0 auto 188px;
    
 }
 
@@ -209,7 +212,8 @@ h2 {
     font-size: 20px;
     line-height: 1,2;
     color: #2E2F42;  
-    font-weight: 700px;   
+    font-weight: 700;
+    
 }
 
 .ourteam .position {

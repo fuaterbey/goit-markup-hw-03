@@ -59,7 +59,7 @@ body {
     gap: 40px;
     list-style: none;
     padding-right: 332px;
-    line-height: 1,5;
+    line-height: 1.5;
 }
 
 .menu .link {
@@ -71,7 +71,7 @@ body {
 .menu .link:hover,
 .menu .link:focus {
     color: #404BBF;
-    line-height: 1,5;
+    line-height: 1.5;
     text-decoration: none;
 }
 
@@ -102,7 +102,7 @@ body {
 h1 {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1,0714;
+    line-height: 1.0714;
     color: #FFFFFF;
     font-style: normal;
     text-align: center;
@@ -114,9 +114,7 @@ h1 {
 
 button {
     
-    width: 169px;
-    height: 56px;
-    margin: 0 auto 188px;
+    margin: 0 635px 188px 636px;
    
 }
 
@@ -128,7 +126,7 @@ button {
     
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,5px;
+    line-height: 1.5;
     
     text-align: center;
     letter-spacing: 0.04em;
@@ -160,14 +158,14 @@ button {
 
 .item h3 {
     font-size: 20px;
-    line-height: 1,2;
+    line-height: 1.2;
     color: #2E2F42;
     letter-spacing: 0.02em;
 }
 
 .item p {
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     color: #515543;
     letter-spacing:0.02em;
 }
@@ -175,12 +173,12 @@ button {
 .thirdsection {
 
     background-color: #F4F4FD;
-    text-align: center;
+    
 }
 
 h2 {    
     font-size: 36px;
-    line-height: 1,111;
+    line-height: 1.111;
     color: #2E2F42;
     font-weight: 700;
     text-align: center;
@@ -193,7 +191,6 @@ h2 {
     display: flex;
     list-style: none;
     gap: 24px;
-    justify-content: center;
 }
 
 .ourteam .card {
@@ -206,11 +203,12 @@ h2 {
     flex-direction: column;
     gap: 8px;
     padding: 32px 16px;
+    text-align: center;
 }
 
 .ourteam .name {
     font-size: 20px;
-    line-height: 1,2;
+    line-height: 1.2;
     color: #2E2F42;  
     font-weight: 700;
     
@@ -218,12 +216,12 @@ h2 {
 
 .ourteam .position {
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     color: #435544;
 }
 
 .fourthsection {
-    text-align: left;
+    
 }
 
 .portfolio {
@@ -235,7 +233,6 @@ h2 {
 }
 
 .card2 {
-    max-width: 360px;
     flex-basis: calc((100% - 70px) / 3);
     padding: 0px;
     background-color: #fff;
@@ -251,19 +248,20 @@ h2 {
 }
 
 .card2-image {
-    max-width: 100%;
+    width: 360px;
 }
 
 .portfolio .work {
     font-size: 20px;
-    line-height: 1,2;
+    line-height: 1.2;
     color: #2e4230;
     text-align: left;
+    font-weight: 700;
 }
 
 .portfolio .type {
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     color: #435544;
     text-align: left;
 }
@@ -296,7 +294,7 @@ footer {
 .aim {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
 }

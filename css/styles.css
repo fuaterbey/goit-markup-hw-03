@@ -228,9 +228,11 @@ h2 {
 
 .card2 {
     padding: 0px;
-    background-color: #fff;
-    border-bottom: 1px solid #E7E9FC;
-    
+    background-color: #fff;    
+}
+
+.card2-image {
+    width: 360px;
 }
 
 .portfolio .id2 {
@@ -238,17 +240,17 @@ h2 {
     flex-direction: column;
     gap: 8px;
     padding: 32px 16px;
-}
+    
+    border-width: 0px, 1px, 1px, 1px;
+    border-style: solid;
+    border-color: #E7E9FC;
 
-.card2-image {
-    width: 360px;
 }
 
 .portfolio .work {
     font-size: 20px;
     line-height: 1.2;
     color: #2e4230;
-    text-align: left;
     font-weight: 700;
 }
 
@@ -256,7 +258,6 @@ h2 {
     font-size: 16px;
     line-height: 1.5;
     color: #435544;
-    text-align: left;
 }
 
 footer {

@@ -198,10 +198,15 @@ h2 {
 
 .ourteam .id {
     display: flex;
+    
     flex-direction: column;
     gap: 8px;
     padding: 32px 16px;
     text-align: center;
+
+}
+.card-image {
+    display: block;
 }
 
 .ourteam .name {
@@ -209,7 +214,6 @@ h2 {
     line-height: 1.2;
     color: #2E2F42;  
     font-weight: 700;
-    
 }
 
 .ourteam .position {
@@ -233,6 +237,7 @@ h2 {
 
 .card2-image {
     width: 360px;
+    display: block;
 }
 
 .portfolio .id2 {
@@ -241,7 +246,7 @@ h2 {
     gap: 8px;
     padding: 32px 16px;
     
-    border-width: 0px, 1px, 1px, 1px;
+    border-width: 0px 1px 1px 1px;
     border-style: solid;
     border-color: #E7E9FC;
 
